@@ -1,0 +1,206 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.App {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 20px;
+    min-height: 100vh;
+}
+
+
+.Sidebar {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.Sidebar-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100%;
+}
+
+.Sidebar-primary {
+    position: sticky;
+    top: 0;
+}
+
+.Sidebar-secondary {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+div.Brand {
+    border: 0.25rem solid red;
+}
+
+
+
+nav.Menu {
+    border: 0.25rem solid red;
+}
+
+.Sidebar-secondary {
+    border: 0.25rem solid red;
+}
+
+.Menu-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.Appearance {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    border: 0.25rem solid red;
+}
+
+.Appearance-button--light,
+.Appearance-button--dark {
+    min-width: 1rem;
+}
+
+
+.SidebarFooter {
+    border: 0.25rem solid red;
+}
+
+
+.Main {
+    min-width: 0;
+}
+
+.Main-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.25rem solid red;
+}
+
+
+.Breadcrumbs-link {
+    text-decoration: underline;
+}
+
+.Hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    border: 0.25rem solid red;
+}
+
+.Hero-welcome {
+    border: 0.25rem solid red;
+}
+
+
+.MapPreview {
+    border: 0.25rem solid red;
+}
+
+.Archive {
+    border: 0.25rem solid red;
+}
+
+.Archives-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    min-width: 80vw;
+    align-content: center;
+    border: 0.25rem solid red;
+}
+
+.Archieves-Pages-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border: 0.25rem solid red;
+}
+
+
+.Document-container {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 20px;
+
+    border: 0.25rem solid red;
+}
+
+.Translate-Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    border: 0.25rem solid red;
+}
+
+.Main-card {
+
+    border: 0.25rem solid red;
+}
+
+.Encryption {
+
+    border: 0.25rem solid red;
+}
+
+.Footer-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    border: 0.25rem solid red;
+}
+
+.Footer-menu {
+    border: 0.25rem solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 0.25rem solid red;
+}
+
+li.Footer-item {
+    list-style: none;
+}
+
+.Align-center {
+    text-align: center;
+    align-items: center;
+}
+
+.Align-end {
+
+    text-align: end;
+    align-content: center;
+}
