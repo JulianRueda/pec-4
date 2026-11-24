@@ -1,4 +1,4 @@
-# Lore TØP — Web de apoyo1
+# Lore TØP — Web de apoyo
 
 Web estática (HTML + CSS + JS) sobre el lore de **Dema**, el universo narrativo de Twenty One Pilots.
 
